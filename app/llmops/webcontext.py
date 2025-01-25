@@ -18,7 +18,7 @@ class WebScraperVectorDB:
     def __init__(self):
         # Initialize embeddings
         self.embeddings = OllamaEmbeddings(
-            model="llama3"  # Changed to llama2 as llama3 isn't available yet
+            model="llama3"
         )
         
         # Initialize vector store
